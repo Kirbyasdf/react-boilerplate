@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Route, Switch } from "react-router-dom";
 
-// * const {REACT_APP_BASE_URL} = process.env
+const { REACT_APP_BASE_URL } = process.env;
 
 const App = () => {
 	return (
