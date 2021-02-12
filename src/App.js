@@ -10,7 +10,7 @@ function App() {
           Tachyons
            </a>
        </div>
-         <a className="link hover-dark-red  f2" href="https://augustuskirby.com/" target="_blank" rel="noopener noreferrer" >
+         <a className="link hover-dark-red  f2" href="https://augustuskirby.com/" target="_blank" rel="noopener noreferrer">
         home
          </a>
     </div>
