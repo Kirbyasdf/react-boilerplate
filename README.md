@@ -1,11 +1,8 @@
 # react-boilerplate
-preinstalled with tachyons
+preinstalled with router/tachyons/env
 
-git clone 
+## git clone 
 
+## npm i
 
-npm i
-
-
-
-npm start
+## npm start
