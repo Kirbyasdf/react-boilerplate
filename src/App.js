@@ -63,13 +63,3 @@ const HomePage = () => {
 };
 
 export default App;
-{
-	/* <a
-className="link hover-dark-red  i "
-href="https://reactrouter.com/"
-target="_blank"
-rel="noopener noreferrer"
->
-React Router
-</a> */
-}
