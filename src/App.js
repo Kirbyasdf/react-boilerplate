@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import { Route, Switch } from "react-router-dom";
 
+// * const {REACT_APP_BASE_URL} = process.env
+
 const App = () => {
 	return (
 		<Switch>
@@ -13,7 +15,7 @@ const App = () => {
 const HomePage = () => {
 	return (
 		<div className="bg-black vh-100 white pa3 tc">
-			<span className="f1 yellow">Welcome</span>
+			<span className="f1 ">Welcome</span>
 			<div className="f3 mv2">
 				<span> This app has been preloaded with</span>
 				<br />
@@ -26,7 +28,7 @@ const HomePage = () => {
 					React Router
 				</a>
 				<br />
-				<span>and</span> <br />
+				<span>+</span> <br />
 				<a
 					className="link hover-dark-red f2  i "
 					href="https://tachyons.io/"
@@ -34,6 +36,17 @@ const HomePage = () => {
 					rel="noopener noreferrer"
 				>
 					Tachyons
+				</a>
+				<br />
+				<span>+</span>
+				<br />
+				<a
+					className="link hover-dark-red f2  i "
+					href="https://create-react-app.dev/docs/adding-custom-environment-variables/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					ENV
 				</a>
 			</div>
 			<span className="f3"> You can also come</span>
