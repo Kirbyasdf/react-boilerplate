@@ -1,9 +1,8 @@
-import React, { Fragment } from "react";
 import { Route, Switch } from "react-router-dom";
 
 const { REACT_APP_BASE_URL } = process.env;
 
-const App = () => {
+export const App = () => {
 	return (
 		<Switch>
 			<Route exact path="/" component={HomePage} />
@@ -61,5 +60,3 @@ const HomePage = () => {
 		</div>
 	);
 };
-
-export default App;
