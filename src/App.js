@@ -1,4 +1,5 @@
 import { Route, Switch } from "react-router-dom";
+import gh from "./gh.png";
 
 const { REACT_APP_BASE_URL } = process.env;
 
@@ -15,6 +16,19 @@ const HomePage = () => {
 	return (
 		<div className="bg-black vh-100 white pa3 tc">
 			<span className="f1 ">Welcome</span>
+			<br />
+			<a
+				href="https://github.com/Kirbyasdf/react-boilerplate"
+				className="  link "
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img
+					src={gh}
+					className="br4    w2 rotate-vert-center"
+					alt="resource failed to load, f in the console"
+				/>
+			</a>
 			<div className="f3 mv2">
 				<span> This app has been preloaded with</span>
 				<br />
