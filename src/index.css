@@ -10,6 +10,10 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.link:focus {
+	outline: none;
+}
+
 .rotate-vert-center {
 	-webkit-animation: rotate-vert-center 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
 	animation: rotate-vert-center 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
