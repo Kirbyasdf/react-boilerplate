@@ -12,6 +12,8 @@ export const App = () => {
 	);
 };
 
+const linkClassStyle = "link hover-dark-red purple f2 i "
+
 const HomePage = () => {
 	return (
 		<div className="bg-black vh-100 white pa3 tc">
@@ -45,7 +47,7 @@ const HomePage = () => {
 				<span> This app has been preloaded with</span>
 				<br />
 				<a
-					className="link hover-dark-red f2 i "
+					className={linkClassStyle}
 					href="https://reactrouter.com/"
 					target="_blank"
 					rel="noopener noreferrer"
@@ -55,7 +57,7 @@ const HomePage = () => {
 				<br />
 				<span>+</span> <br />
 				<a
-					className="link hover-dark-red f2  i "
+					className={linkClassStyle}
 					href="https://tachyons.io/"
 					target="_blank"
 					rel="noopener noreferrer"
@@ -66,7 +68,7 @@ const HomePage = () => {
 				<span>+</span>
 				<br />
 				<a
-					className="link hover-dark-red f2  i "
+					className={linkClassStyle}
 					href="https://create-react-app.dev/docs/adding-custom-environment-variables/"
 					target="_blank"
 					rel="noopener noreferrer"
