@@ -13,3 +13,5 @@ redux - tool kit / auth logic / error logic / api services + code comments comin
 ## npm i
 
 ## npm start
+
+# delete everything + gh.png in /src ....remember to change /pubic/index.html + package.json detials to your project title/author etc. 
