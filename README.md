@@ -1,8 +1,9 @@
 # react-boilerplate
 
-Only thing personlized is the styling to remove => npm uninstall tachyons && remove line 4 of /src/index.js 
 
 preinstalled with router/tachyons/env*
+
+To uninstall tachyons "npm uninstall tachyons" && remove line 4 of /src/index.js 
 
 *env added on git, will not be reuploaded as .gitignore has been instructed to ignore it.
 
