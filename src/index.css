@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
 body {
 	margin: 0;
+        background-color: black;
 	font-family: "Playfair Display SC", serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
