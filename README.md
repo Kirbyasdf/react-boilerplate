@@ -1,4 +1,4 @@
-# react-boilerplate
+# Kirbyasdf's react-boilerplate
 
 preinstalled with router/tachyons/env*
 
